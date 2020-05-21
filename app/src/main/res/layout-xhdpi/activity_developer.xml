@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D7F4F1"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:id="@+id/appnameof"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:text="@string/hi"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/versionof"
+                            android:layout_width="88dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/thisis" />
+                        <TextView
+                            android:id="@+id/version"
+                            android:layout_width="179dp"
+                            android:textSize="18sp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/descriptionof"
+                            android:layout_width="89dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/astudent" />
+                        <TextView
+                            android:id="@+id/fgdfg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="17dp"
+                            android:text="@string/bangamatasheikh" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/departmentof" />
+
+                        <TextView
+                            android:id="@+id/dsf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="17dp"
+                            android:text="@string/computerscien" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+                        <TextView
+                            android:id="@+id/dsd"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/session" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+                        <TextView
+                            android:id="@+id/developbyof"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/contactwithme" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20sp"
+
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:id="@+id/emailbuttonid"
+                            android:scaleType="fitXY"
+                            android:layout_width="52dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/email_logo"
+                            android:src="@drawable/email_logo"
+                            android:layout_marginLeft="20dp"
+
+                            />
+                        <ImageButton
+                            android:id="@+id/whatsappbuttonid"
+                            android:layout_width="52dp"
+                            android:scaleType="fitXY"
+                            android:padding="5dp"
+                            android:background="@drawable/whatsapp_logo"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/whatsapp_logo"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/facebookid"
+                            android:layout_width="52dp"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/facebook_logo"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/facebook_logo"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+        
+       
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

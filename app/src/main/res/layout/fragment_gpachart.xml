@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".GpaChartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:padding="20dp"
+     >
+     <com.google.android.material.card.MaterialCardView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <TableLayout
+             android:layout_width="360dp"
+             android:layout_height="531dp"
+             android:layout_marginTop="5dp"
+             android:background="@android:color/transparent"
+             android:padding="30dp">
+
+             <TableRow
+                 android:background="#F4F4F4"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="Grade"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="Point"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#46F401"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="A+"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="4.00"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+             </TableRow>
+
+             <TableRow
+                 android:background="#BAAACD"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="A"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="3.75"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#EFE592"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="A-"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="3.50"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#85A4BC"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="B+"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="3.25"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#0BD2DA"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="B"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="3.00"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#B9D696"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="B-"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="2.75"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#C3BEDC"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="C+"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="2.50"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#DFC293"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="C"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="2.25"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#D3D39E"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="D"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="2.00"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+             <TableRow
+                 android:background="#9A9694"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="10dp"
+                     android:layout_weight="1"
+                     android:text="F"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="0.00"
+                     android:textColor="#DF0000"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+             </TableRow>
+
+         </TableLayout>
+
+     </com.google.android.material.card.MaterialCardView>
+
+ </LinearLayout>
+</FrameLayout>

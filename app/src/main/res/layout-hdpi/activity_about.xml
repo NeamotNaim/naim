@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D7F4F1"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/appnameof"
+                        android:layout_width="109dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/App_name_of"
+                        />
+
+                    <TextView
+                        android:id="@+id/appname"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/App_name" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/versionof"
+                        android:layout_width="109dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Version_name_of" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Version_name" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/descriptionof"
+                        android:layout_width="109dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Description_of" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Description" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/developbyof"
+                        android:layout_width="109dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Develop_by_of" />
+
+                    <TextView
+                        android:id="@+id/developby"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Develop_by" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            
+        </ScrollView>
+        
+       
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

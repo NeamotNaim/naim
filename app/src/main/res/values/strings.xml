@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CGPA Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="App_name_of">App Name</string>
+    <string name="App_name">CGAP Calculator</string>
+    <string name="Version_name_of">Version </string>
+    <string name="Version_name">1.0.0</string>
+    <string name="Description_of">Description :</string>
+    <string name="Description">This app is for calculate University level CGPA(Cumulative Grade Point Average).You need to
+    enter your subject\'s GPA(Grade Point Average) and your subject\'s Credits.
+    Then you got your CGPA.In next version You can also able to calculate SCGPA(Semister Cumulative Grade Point Average) and store them in database. And comparative cgpa of your department.
+    Like as sorting them by Name,Point,ID.There you will get the feature of graph of cgpa and many more.
+    So don\'t forget to give your feedback and  suggestion.</string>
+
+    <string name="Develop_by_of">Developed by</string>
+    <string name="Develop_by"><h6>Neamotullah Naim</h6></string>
+    <string name="hi">Hi
+   </string>
+    <string name="thisis">This is  </string>
+    <string name="name">Neamotullah Naim</string>
+    <string name="astudent">A student of </string>
+    <string name="bangamatasheikh">Bangamata Sheikh Fojilatunnesa
+    Mujib Science and Technology University,Jamalpur.</string>
+    <string name="departmentof">Department of </string>
+    <string name="session">Session: 2018-2019.</string>
+    <string name="computerscien">Computer Science and Engineering.</string>
+    <string name="contactwithme">contact with me via</string>
+
+   <string-array name="itemvalue">
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+       <item>bvafd</item>
+   </string-array>
+
+
+</resources>

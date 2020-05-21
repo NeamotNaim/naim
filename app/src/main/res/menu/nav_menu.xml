@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/homeid"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            />
+        <item android:id="@+id/calculatorid"
+            android:title="Calculator"
+            android:icon="@drawable/ic_calculator_logo"
+            />
+        <item android:id="@+id/gpachartid"
+            android:title="GPA chart"
+            android:icon="@drawable/ic_list_black_24dp"/>
+
+
+
+    </group>
+    <item android:title="Commmunicate">
+        <menu>
+
+            <item android:title="Share"
+                android:id="@+id/shareid"
+                android:icon="@drawable/ic_share"
+                />
+            <item android:title="Feedback"
+                android:id="@+id/feedbackid"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+
+            <item android:title="App"
+                android:id="@+id/appid"
+                android:icon="@drawable/ic_description_black_24dp"
+                />
+            <item android:title="Developer"
+                android:id="@+id/developerid"
+                android:icon="@drawable/ic_developer_board_black_24dp"
+                />
+        </menu>
+    </item>
+
+
+
+
+
+</menu>
