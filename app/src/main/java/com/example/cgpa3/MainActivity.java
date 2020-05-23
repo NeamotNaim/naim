@@ -4,6 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,9 +19,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 private DrawerLayout drawerLayout;
-public String string="hello";
+ Button launcher;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +45,10 @@ public String string="hello";
             navigationView.setCheckedItem(R.id.homeid);
         }
 
+////////
 
+        //launcher=findViewById(R.id.launchbutton);
+        //launcher.setOnClickListener(this);
 
     }
 
@@ -65,8 +73,12 @@ public String string="hello";
         }
         if (menuItem.getItemId()==R.id.calculatorid){
             getSupportFragmentManager().beginTransaction().
-                    replace(R.id.Maincontainer,new CalculatorFragment()).commit();
-            setTitle(menuItem.getTitle());
+                   replace(R.id.Maincontainer,new CalculatorFragment()).commit();
+//            Intent intent=new Intent(MainActivity.this,CalculateActivity.class);
+//            startActivity(intent);
+
+
+
         }
         if (menuItem.getItemId()==R.id.gpachartid){
             getSupportFragmentManager().beginTransaction().
@@ -75,7 +87,6 @@ public String string="hello";
         }
 
         if (menuItem.getItemId()==R.id.shareid){
-            Toast.makeText(this,"You clicked on share",Toast.LENGTH_LONG).show();
 
             Intent intent=new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
@@ -120,4 +131,10 @@ public String string="hello";
 
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void onClick(View view) {
+
+    }
 }
+

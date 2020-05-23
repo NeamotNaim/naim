@@ -30,16 +30,16 @@
     <string name="computerscien">Computer Science and Engineering.</string>
     <string name="contactwithme">contact with me via</string>
 
-   <string-array name="itemvalue">
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-       <item>bvafd</item>
-   </string-array>
+    <string-array name="itemvalue">
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+        <item>bvafd</item>
+    </string-array>
 
 
 </resources>

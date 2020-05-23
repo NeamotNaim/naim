@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:layout_margin="20dp"
         >
-<!--layout header-->
+<!--layout header section-->
         <LinearLayout
             android:id="@+id/linearhead"
             android:layout_alignParentTop="true"
@@ -69,11 +69,12 @@
                     android:textSize="20dp" />
             </LinearLayout>
         </LinearLayout>
+<!--        layoutheader end-->
 
-
-<!--        layout body-->
+<!--layout body section-->
         <LinearLayout
             android:layout_below="@+id/linearhead"
+            android:layout_above="@+id/calculatelinearid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -392,7 +393,6 @@
 
                         <Spinner
                             android:id="@+id/spinner9"
-                            android:visibility="gone"
                             android:layout_width="0dp"
                             android:layout_height="25dp"
                             android:layout_weight="1"
@@ -541,48 +541,55 @@
 
                     </LinearLayout>
 
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        >
+
+                        <Button
+                            android:id="@+id/resetbuttonid"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/border"
+                            android:text="Reset"
+                            android:textColor="#fff"
+                            android:textSize="18dp" />
+
+                        <Button
+                            android:id="@+id/addcoursebuttonid"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Add Course"
+                            android:textSize="18dp"
+                            android:textColor="#fff"
+                            android:background="@drawable/border"
+                            android:layout_margin="5dp"
+                            android:layout_width="0dp" />
+
+                    </LinearLayout>
                 </LinearLayout>
             </ScrollView>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:weightSum="2"
-                >
 
-                <Button
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/border"
-                    android:text="Reset"
-                    android:textColor="#fff"
-                    android:textSize="18dp" />
-
-                <Button
-                    android:layout_weight="1"
-                    android:layout_height="wrap_content"
-                    android:text="Add Course"
-                    android:textSize="18dp"
-                    android:textColor="#fff"
-                    android:background="@drawable/border"
-                    android:layout_margin="5dp"
-                    android:layout_width="0dp" />
-
-            </LinearLayout>
 
 
         </LinearLayout>
+<!--        layout body end-->
 
-<!--        layout footer-->
+
+<!--layout footer section-->
         <LinearLayout
+            android:id="@+id/calculatelinearid"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:orientation="horizontal">
             <Button
+                android:id="@+id/calculatebuttonid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border"
@@ -591,6 +598,7 @@
                 android:textColor="#fff"
                 android:textSize="25dp" />
         </LinearLayout>
+<!--        layout fotter end-->
 
 
 
